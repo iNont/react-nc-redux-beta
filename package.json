@@ -1,11 +1,11 @@
 {
   "name": "react-nc-redux-beta",
-  "version": "1.0.21",
-  "description": "React-NC is state container for react app",
+  "version": "1.0.22",
+  "description": "Enhanced `react-nc` by using functionality of `react-redux` and simplified redux development steps",
   "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iNont/react-nc.git"
+    "url": "https://github.com/iNont/react-nc-redux-beta.git"
   },
   "dependencies": {
     "react-dom": "^16.9.0",
