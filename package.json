@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iNont/react-nc-redux-beta.git"
+    "url": "https://github.com/iNont/react-nc-redux-betag.git"
   },
   "dependencies": {
     "react-dom": "^16.9.0",
