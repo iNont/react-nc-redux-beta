@@ -1,0 +1,48 @@
+{
+  "name": "react-nc-redux-beta",
+  "version": "1.0.21",
+  "description": "React-NC is state container for react app",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iNont/react-nc.git"
+  },
+  "dependencies": {
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "prop-types": "^15.7.2",
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "react-nc",
+    "nc",
+    "react",
+    "state",
+    "controller",
+    "ctrl",
+    "router",
+    "route",
+    "redirect",
+    "react-router-dom",
+    "react-router",
+    "redux",
+    "react-redux"
+  ],
+  "author": "Natchanon Charoensuk <inont@hotmail.co.th>",
+  "license": "ISC"
+}
