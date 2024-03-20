@@ -3,7 +3,7 @@ import CTRL from './CTRL';
 import { connect } from 'react-redux';
 import * as Utils from './Utils';
 
-const StateConnect = (mapStateToUpdate = state => Utils.deepCopy(CTRL.state), withRef = false) => (Comp) => {
+const StateConnect = (mapStateToUpdate = state => Utils.deepCopy(CTRL.state), withRef = false, connectParams) => (Comp) => {
   let mapStateToUpdateAll = CTRL.config.mapStateToUpdateAll || {};
   let fromAll = typeof mapStateToUpdateAll === 'object' ? () => mapStateToUpdateAll : mapStateToUpdateAll;
   let fromMap = typeof mapStateToUpdate === 'object' ? () => mapStateToUpdate : mapStateToUpdate;
@@ -14,7 +14,9 @@ const StateConnect = (mapStateToUpdate = state => Utils.deepCopy(CTRL.state), wi
             ...fromMap(store.reactNCState, ...params)
         })
     })
-    , null, null, withRef
+    , ...(Array.isArray(connectParams) ? connectParams : [
+        null, null, { withRef }
+    ])
   )(Comp);
   return ConnectedComp;
 }

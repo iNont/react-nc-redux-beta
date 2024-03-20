@@ -1,6 +1,6 @@
 {
   "name": "react-nc-redux-beta",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Enhanced `react-nc` by using functionality of `react-redux` and simplified redux development steps",
   "main": "build/index.js",
   "repository": {
@@ -8,8 +8,8 @@
     "url": "https://github.com/iNont/react-nc-redux-betag.git"
   },
   "dependencies": {
-    "react-dom": "^16.9.0",
-    "react-redux": "^7.1.1",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.2",
     "redux": "^4.0.4"
   },
   "devDependencies": {
@@ -20,7 +20,7 @@
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "prop-types": "^15.7.2",
-    "react": "^15.5.4",
+    "react": "^15.7.0",
     "webpack": "^2.6.1"
   },
   "scripts": {
